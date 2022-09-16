@@ -1,0 +1,13 @@
+h5 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}

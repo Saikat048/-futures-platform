@@ -1,6 +1,8 @@
 import React from 'react'; 
+import Footer from '../Share/Footer';
 import Banner from './Banner';
 import Business from './Business';
+import Continuous from './Continuous';
 import './Futures.css'
 import Information from './Information';
 import Leading from './Leading';
@@ -18,6 +20,8 @@ const Futures = () => {
             <Leading></Leading>
             <Information></Information> 
             <Plans></Plans>
+            <Continuous></Continuous>
+            <Footer></Footer>
         </div>
     );
 };
