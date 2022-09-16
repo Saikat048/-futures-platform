@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Signup = () => {
+const Contact = () => {
     return (
         <div>
-            <h1>Sign Up</h1>
+            <h1>Contact Us</h1>
         </div>
     );
 };
 
-export default Signup;
+export default Contact;
