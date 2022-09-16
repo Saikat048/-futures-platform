@@ -1,0 +1,24 @@
+.banner{
+    width: 100%;
+    height: 80vh; 
+    background-image: url('https://images.squarespace-cdn.com/content/v1/6192b02960e94236fc22acce/bf315e4b-e1d8-471c-895d-7eb68d01b369/VR_AR_mixed_reality_and_mediasation.jpg');
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+
+
+.make{
+    margin-top: 350px;
+    margin-left: 70px;
+    color: #ffffff;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bolder; 
+} 
+.foresight{
+    font-size: 20px;
+    font-weight: bolder; 
+}
