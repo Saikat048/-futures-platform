@@ -5,11 +5,17 @@
     background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	overflow: hidden;
+	overflow: hidden; 
 } */
 
 .information-banner{
     width: 100%;
-    height: 80vh;
-    color: #172836;
+    height: auto;
+    background: #172836; 
 }
+.image {
+    width: 100%;
+    height: auto;
+} 
+
+ 

@@ -5,7 +5,8 @@ import './Futures.css'
 import Information from './Information';
 import Leading from './Leading';
 import Makers from './Makers';
-import Marquee from './Marquee';
+import Marquee from './Marquee'; 
+import Plans from './Plans';
 
 const Futures = () => {
     return (
@@ -15,7 +16,8 @@ const Futures = () => {
             <Business></Business>
             <Makers></Makers>
             <Leading></Leading>
-            <Information></Information>
+            <Information></Information> 
+            <Plans></Plans>
         </div>
     );
 };
