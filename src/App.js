@@ -7,6 +7,7 @@ import Contact from './Pages/About/Contact';
 import Management from './Pages/About/Management';
 import Login from './Pages/Login/Login';
 import Signup from './Pages/Login/Signup';
+import RequireAuth from './Pages/Share/RequireAuth';
 
 function App() {
   return (
@@ -16,11 +17,15 @@ function App() {
       <Routes>
         <Route path="/" element={<Futures></Futures>}></Route>
         <Route path="/futures" element={<Futures></Futures>}></Route>
-        <Route path="/solution" element={<Solution></Solution>}></Route>
+        <Route path="/solution" element={ 
+          <Solution></Solution>}></Route>
+        {/* <Route path="/solution" element={<RequireAuth>
+          <Solution></Solution>
+        </RequireAuth>}></Route> */}
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/management" element={<Management></Management>}></Route> 
         <Route path="/login" element={<Login></Login>}></Route> 
-        <Route path="/singup" element={<Signup></Signup>}></Route> 
+        <Route path="/signup" element={<Signup></Signup>}></Route> 
       </Routes>
     </div>
   );

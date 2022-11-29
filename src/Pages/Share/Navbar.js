@@ -1,7 +1,22 @@
 import React from 'react';
 import CustomLink from './CoustomLink';
+// import { useAuthState } from 'react-firebase-hooks/auth';
+// import auth from '../../firebase.init';
+// import { getAuth } from 'firebase/auth';
+// import { signOut } from 'firebase/auth';
+// import Loading from './Loading';
 
 const Navbar = () => {
+
+
+    // const [user, loading] = useAuthState(auth);
+
+    // // if(loading){
+    //    <Loading></Loading>;
+    // }
+ 
+
+
     return (
         <div class="navbar bg-base-100 px-20 py-6">
             <div class="navbar-start">
@@ -42,6 +57,12 @@ const Navbar = () => {
             </div>
             <ul class="navbar-end">
                 <li><CustomLink to='/login' className='text-3xl'>Log In</CustomLink></li>
+                {
+            // user ? <li><CustomLink to='/login'>Log Out</CustomLink></li>
+            // :
+            // <li><CustomLink to='/login'>Login</CustomLink></li>
+
+        }
             </ul>
         </div>
     );

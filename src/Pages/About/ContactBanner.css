@@ -1,0 +1,19 @@
+
+.contactBanner{
+    width: 100%;
+    height: 80vh; 
+    background-image: url('https://images.squarespace-cdn.com/content/v1/6192b02960e94236fc22acce/1647287010059-NUGWMKMQWJ6MCNUXGZBF/GettyImages-1092964846.jpg');
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+
+
+.contactUs {
+    font-size: 60px;
+    margin-top: 470px;
+    margin-left: 60px;
+    color: #ffffff;
+    font-weight: bold;
+}

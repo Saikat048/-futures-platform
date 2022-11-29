@@ -1,0 +1,23 @@
+[
+    {
+        "title": "CONTACT SALES",
+        "description": "Our sales team, consisting of seasoned foresight experts, will guide you through any steps and questions necessary to get the best value of your investment in a Futures Platform subscription.",
+        "email": "sales@futuresplatform.com",
+        "phone": "+358509954450",
+        "btn": "BOOK MEETING WITH SALES"
+    },
+    {
+        "title": "CONTACT SUPPORT",
+        "description": "Already have a subscription in your organisation? Contact our customer success and support teams to get help with any matter regarding the use of Futures Platform.",
+        "email": "support@futuresplatform.com",
+        "phone": "+358509954675",
+        "btn": "CONTACT SUPPORT"
+    },
+    {
+        "title": "MEDIA RELATIONS",
+        "description": "If you are interested in interviewing our futurists for an expert opinion or a feature story, don’t hesitate to contact our marketing team via email. You may also visit our News & Press pages.",
+        "email": "marketing@futuresplatform.com",
+        "phone": "+358509954097",
+        "btn": "NEWS & PRESS SECTION"
+    }
+]
